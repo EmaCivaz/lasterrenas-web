@@ -5,9 +5,9 @@
   (function () {
     if (location.search.indexOf("lang=") !== -1) return;
     var lang = (navigator.language || navigator.userLanguage || "es").toLowerCase();
-    if (lang.indexOf("it") === 0) location.replace("It.html");
-    else if (lang.indexOf("fr") === 0) location.replace("Fr.html");
-    else if (lang.indexOf("en") === 0) location.replace("En.html");
+    if (lang.indexOf("it") === 0) location.replace("it.html");
+    else if (lang.indexOf("fr") === 0) location.replace("fr.html");
+    else if (lang.indexOf("en") === 0) location.replace("en.html");
   })();
 </script>
 <meta charset="utf-8">
